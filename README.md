@@ -1,7 +1,7 @@
 # KlinikKu+ : Orchestrating Seamless Healthcare Services
 ## Project info
 
-**URL**: https://lovable.dev/projects/ac3dc702-5356-4931-b937-251dd1d6bc5f
+**URL**: https://med-x-klinikku.vercel.app/
 
 **Use your preferred IDE**
 
