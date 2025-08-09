@@ -3,6 +3,8 @@
 
 **URL**: https://med-x-klinikku.vercel.app/
 
+**Video demo**: https://www.youtube.com/watch?v=RNkJ5NTifeo
+
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
