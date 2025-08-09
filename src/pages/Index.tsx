@@ -2,16 +2,17 @@ import { useState } from "react";
 import { MetricCard } from "@/components/MetricCard";
 import { PatientCard } from "@/components/PatientCard";
 import { PatientProfile } from "@/components/PatientProfile";
-import { AskMeBot } from "@/components/AskMeBot";
+import { SettingsDialog } from "@/components/SettingsDialog";
 import { mockGPMetrics, getTodaysPatients } from "@/data/mockPatients";
 import { Patient } from "@/types/medical";
+import { AskMeBot } from "@/components/AskMeBot";
 import { 
   Users, Clock, UserCheck, Calendar,
   Search, Filter, Bell, Menu
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import medicalLogo from "@/assets/medical-logo.png";
+import jataNegara from "@/assets/jata-negara-malaysia.png";
 
 const Index = () => {
   const [selectedPatient, setSelectedPatient] = useState<Patient | null>(null);
@@ -46,8 +47,8 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <img 
-                src={medicalLogo} 
-                alt="Medical Dashboard Logo" 
+                src={jataNegara} 
+                alt="Jata Negara Malaysia" 
                 className="h-12 w-auto"
                 onError={(e) => {
                   // Fallback if image fails to load
@@ -72,6 +73,7 @@ const Index = () => {
                   })}
                 </p>
               </div>
+              <SettingsDialog />
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/20">
                 <Bell className="h-5 w-5" />
               </Button>
