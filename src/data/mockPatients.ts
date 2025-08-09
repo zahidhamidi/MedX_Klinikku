@@ -15,7 +15,7 @@ export const mockPatients: Patient[] = [
     },
     diseases: ["Hypertension", "Type 2 Diabetes"],
     lastVisitDate: "2024-08-05",
-    nextAppointmentDate: "2024-08-09T09:00:00",
+    nextAppointmentDate: new Date().toISOString().split('T')[0] + "T09:00:00",
     lastVisitNotes: "Blood pressure slightly elevated. Patient reports adherence to medication. Advised dietary modifications.",
     medications: [
       {
@@ -84,7 +84,7 @@ export const mockPatients: Patient[] = [
     },
     diseases: ["Asthma"],
     lastVisitDate: "2024-08-07",
-    nextAppointmentDate: "2024-08-09T09:30:00",
+    nextAppointmentDate: new Date().toISOString().split('T')[0] + "T09:30:00",
     lastVisitNotes: "Asthma well controlled. No recent attacks. Continue current medication regimen.",
     medications: [
       {
@@ -144,7 +144,7 @@ export const mockPatients: Patient[] = [
     },
     diseases: ["Migraine"],
     lastVisitDate: "2024-08-06",
-    nextAppointmentDate: "2024-08-09T10:00:00",
+    nextAppointmentDate: new Date().toISOString().split('T')[0] + "T10:00:00",
     lastVisitNotes: "Migraine frequency reduced. Patient responding well to preventive medication.",
     medications: [
       {
@@ -204,7 +204,7 @@ export const mockPatients: Patient[] = [
     },
     diseases: ["Hypertension", "High Cholesterol", "Osteoarthritis"],
     lastVisitDate: "2024-08-04",
-    nextAppointmentDate: "2024-08-09T10:30:00",
+    nextAppointmentDate: new Date().toISOString().split('T')[0] + "T10:30:00",
     lastVisitNotes: "Multiple comorbidities require close monitoring. Blood pressure still elevated despite medication.",
     medications: [
       {
