@@ -57,7 +57,7 @@ const Index = () => {
               />
               <div>
                 <h1 className="text-2xl font-bold">GP Dashboard</h1>
-                <p className="text-primary-foreground/80">Ministry of Health Malaysia</p>
+                <p className="text-primary-foreground/80">Kementerian Kesihatan Malaysia</p>
               </div>
             </div>
             
